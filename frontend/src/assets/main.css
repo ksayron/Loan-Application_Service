@@ -1,0 +1,28 @@
+@import './base.css';
+
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+:root{
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-body-color: #212529;
+  --bs-light: #f8f9fa;
+  --bs-border-color: #d8d7dc;
+  --bs-border-radius: 10px;
+  --bs-font-family: "Vela Sans", Arial, Helvetica, sans-serif;
+  --filter-bg: #fff;
+  --filter-padding: 30px 40px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
